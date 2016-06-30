@@ -8,5 +8,6 @@ Gem::Specification.new do |s|
   s.email       = 'davidsramirez11@gmail.com'
   s.homepage    = 'http://rubygems.org/gems/hola-davidthegreat'
   s.license     = 'MIT'
-  s.files       =["lib/hola_davidthegreat.rb", "lib/hola/translator.rb"]
+  s.files       = ["lib/hola_davidthegreat.rb", "lib/hola/translator.rb"]
+  s.executables << 'hola-davidthegreat'
 end
