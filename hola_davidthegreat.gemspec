@@ -6,11 +6,7 @@ Gem::Specification.new do |s|
   s.description = "hello davidthegreat gem"
   s.authors     = ["David Ramirez"]
   s.email       = 'davidsramirez11@gmail.com'
-  s.files       = ["lib/hola_davidthegreat.rb"]
   s.homepage    = 'http://rubygems.org/gems/hola-davidthegreat'
   s.license     = 'MIT'
-
-
-
-
+  s.files       =["lib/hola_davidthegreat.rb", "lib/hola/translator.rb"]
 end

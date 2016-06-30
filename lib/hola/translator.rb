@@ -2,12 +2,13 @@ class Hola::Translator
   def initialize(language)
     @language = language
   end
+
   def hi
     case @language
     when "spanish"
-        "hola davidelgran"
+      "hola david el mejor"
     else
-        "hello davidthegreat"
+      "hello davidthegreat"
     end
   end
 end
